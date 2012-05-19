@@ -1,0 +1,120 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: Trebuchet MS;
+    color: #454545;
+}
+.displaynone
+{
+    display: none;
+}
+
+#vrWrapper
+{
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    width: 380px;
+    overflow: hidden;
+}
+#vrWrapper .wr
+{
+    width: 2000px;
+}
+.loginBlock
+{
+    width: 260px;
+    border: solid 1px Silver;
+    text-align: center;
+    margin: 20px 40px;
+    background: #fafafa url('../images/bg.jpg') repeat-x left -1px;
+    padding: 20px;
+    float: left;
+}
+.loginBlock .error
+{
+    background: #F7C0A8;
+    margin: 12px 10px 10px 10px;
+    border: solid 1px #cc1111;
+    font-size: 8pt;
+    font-weight: bold;
+    color: #cc1111;
+    padding: 5px;
+}
+.loginBlock .message
+{
+    background-color: #C7FFB1;
+    margin: 12px 10px 10px 10px;
+    border: solid 1px Green;
+    font-size: 8pt;
+    font-weight: bold;
+    color: Green;
+    padding: 5px;
+}
+.loginBlock label
+{
+    margin-top: 4px;
+    display: block;
+    font-size: 8pt;
+    font-weight: bold;
+    color: Gray;
+}
+.loginBlock .description
+{
+    font-size: 8pt;
+    font-weight: bold;
+    text-align: center;
+    width: 250px;
+}
+#indicator
+{
+    display: none;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 43px;
+    top: 25px;
+    background: url('../images/ajax-loader.gi') left top no-repeat;
+}
+.buttonDiv
+{
+    margin: 15px 0 10px 0;
+}
+.loginBlock input
+{
+    color: #333;
+}
+.loginBlock input.textinput
+{
+    width: 160px;
+    padding: 2px;
+}
+.loginBlock .buttonDiv input
+{
+    padding: 0 8px;
+}
+.additional a
+{
+    color: Black;
+    font-size: 9pt;
+    margin: 0 5px;
+}
+.additional a:hover
+{
+    color: Black;
+}
+#wr
+{
+    margin-left: -382px;
+}
+.goHome
+{
+    position: absolute;
+    font-size: 10pt;
+    top: 10px;
+    left: 10px;
+}

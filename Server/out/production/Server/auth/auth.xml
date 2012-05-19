@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app auth="no" title = "Auth">
+    <!--required rel="icon" src="index.jpg"/-->
+    <required rel="html" src="auth.html"/>
+
+    <required rel="js" src="jquery.js"/>
+    <required rel="js" src="jqueryeasing.js"/>
+    <required rel="js" src="auth.js"/>
+    <required rel="css" src="auth.css"/>
+</web-app>

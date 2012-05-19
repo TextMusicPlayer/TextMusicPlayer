@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <http url="127.0.0.1" port="8028">
+        <method name="getApps" var_name="apps"/>
+
+    </http>
+    <required rel="js" src="jquery.js"/>
+    <required rel="html" src="AppMenu.html"/>
+    <required rel="css" src="index.css"/>
+    <required rel="js" src="index.js"/>
+    <required rel="js" src="zoominfo.js"/>
+</web-app>
