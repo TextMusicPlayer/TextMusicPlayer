@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TableLayout android:layout_height="match_parent"
+                 android:layout_width="match_parent">
+        <TableRow android:layout_width="match_parent"
+                  android:layout_weight="1">
+            <Button android:text="Альбомы"
+                    android:layout_weight="0.33"
+                    android:background="#000000"
+                    android:textColor="#ffffffff"
+                    android:id="@+id/album"
+                    android:onClick="clicks"
+                    ></Button>
+            <Button android:text="Исполнители"
+                    android:layout_weight="0.33"
+                    android:background="#000000"
+                    android:id="@+id/singers"
+                    android:textColor="#ffffffff"></Button>
+            <Button android:text="Композиции"
+                    android:layout_weight="0.33"
+                    android:background="#000000"
+                    android:textColor="#ffffffff"
+                    android:id="@+id/songs"></Button>
+        </TableRow>
+    </TableLayout>
+    </LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="artists">Исполнитель: </string>
+    <string name="song">Название: </string>
+    <string name="album">Альбом: </string>
+    <string name="year">Год: </string>
+    <string name="show_the_text">Показать текст</string>
+
+</resources>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/l1"
+            android:visibility="visible">
+
+        <ImageView android:layout_height="fill_parent"
+                   android:layout_width="fill_parent"
+                   android:id="@+id/but1"
+                   android:visibility="visible"
+                   android:background="@drawable/pic1"/>
+        <ImageView android:layout_height="fill_parent"
+                   android:layout_width="fill_parent"
+                   android:id="@+id/but2"
+                   android:visibility="invisible"
+                   android:background="@drawable/pic2"/>
+        <ImageView android:layout_height="fill_parent"
+                   android:layout_width="fill_parent"
+                   android:onClick="click"
+                   android:id="@+id/but3"
+                   android:visibility="invisible"
+                   android:background="@drawable/pic3"/>
+        <ImageView android:layout_height="fill_parent"
+                   android:layout_width="fill_parent"
+                   android:onClick="click"
+                   android:visibility="invisible"
+                   android:id="@+id/but4"
+                   android:background="@drawable/pic4"/>
+        <ImageView android:layout_height="fill_parent"
+                   android:layout_width="fill_parent"
+                   android:onClick="click"
+                   android:id="@+id/but5"
+                   android:visibility="invisible"
+                   android:background="@drawable/pic5"/>
+        <ImageView android:layout_height="fill_parent"
+                   android:layout_width="fill_parent"
+                   android:onClick="click"
+                   android:id="@+id/but6"
+                   android:visibility="invisible"
+                   android:background="@drawable/pic6"/>
+        <ImageView android:layout_height="fill_parent"
+                   android:layout_width="fill_parent"
+                   android:onClick="click"
+                   android:visibility="invisible"
+                   android:id="@+id/but7"
+                   android:background="@drawable/pic7"/>
+        <ImageView android:layout_height="fill_parent"
+                   android:layout_width="fill_parent"
+                   android:onClick="click"
+                   android:visibility="invisible"
+                   android:id="@+id/but8"
+                   android:background="@drawable/pic8"/>
+        <ImageView android:layout_height="fill_parent"
+                   android:layout_width="fill_parent"
+                   android:onClick="click"
+                   android:visibility="invisible"
+                   android:id="@+id/but9"
+                   android:background="@drawable/pic9"/>
+        <ImageView android:layout_height="fill_parent"
+                   android:layout_width="fill_parent"
+                   android:onClick="click"
+                   android:visibility="invisible"
+                   android:id="@+id/but10"
+                   android:background="@drawable/pic10"/>
+        <ImageView android:layout_height="fill_parent"
+                   android:layout_width="fill_parent"
+                   android:onClick="click"
+                   android:visibility="invisible"
+                   android:id="@+id/but11"
+                   android:background="@drawable/pic11"/>
+        <ImageView android:layout_height="fill_parent"
+                   android:layout_width="fill_parent"
+                   android:onClick="click"
+                   android:visibility="gone"
+                   android:id="@+id/but12"
+                   android:background="@drawable/pic12"/>
+        <ImageView android:layout_height="fill_parent"
+                   android:layout_width="fill_parent"
+                   android:onClick="click"
+                   android:visibility="invisible"
+                   android:id="@+id/but13"
+                   android:background="@drawable/pic13"/>
+        <ImageView android:layout_height="fill_parent"
+                   android:layout_width="fill_parent"
+                   android:onClick="click"
+                   android:visibility="invisible"
+                   android:id="@+id/but14"
+                   android:background="@drawable/pic14"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <TableLayout android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:id="@+id/l2"
+                 android:visibility="visible">
+        <TableRow>
+            <TableLayout>
+                <TableRow>
+                    <ImageView android:src="@drawable/t"
+                               android:padding="5dp"
+                               android:layout_weight="1"
+                               android:layout_width="100dp"
+                               android:layout_height="100dp"
+                               android:id="@+id/cover_album"/>
+                    <TableLayout>
+                        <TableRow>
+                            <TextView android:text="Artist:"></TextView>
+                            <TextView android:id="@+id/lead_artist"></TextView>
+                        </TableRow>
+                        <TableRow>
+                            <TextView android:text="Song:"></TextView>
+                            <TextView android:id="@+id/song_title"></TextView>
+                        </TableRow>
+                        <TableRow>
+                            <TextView android:text="Album: "></TextView>
+                            <TextView android:id="@+id/album_title"></TextView>
+                        </TableRow>
+                        <TableRow>
+                            <TextView android:text="Year:"></TextView>
+                            <TextView android:id="@+id/release_year"></TextView>
+                        </TableRow>
+                        <TableRow>
+                            <TextView android:text="Duration: "/>
+                            <TextView android:id="@+id/duration"></TextView>
+                        </TableRow>
+                        <TableRow>
+                            <TextView android:id="@+id/count"></TextView>
+                        </TableRow>
+
+                    </TableLayout>
+
+                </TableRow>
+
+
+            </TableLayout>
+        </TableRow>
+
+
+
+        <TableRow>
+            <TableLayout android:layout_width="1dp"
+                         android:layout_weight="1"
+                         android:layout_height="fill_parent"
+                         android:gravity="center_vertical|center_horizontal">
+                <TableRow >
+                    <TableLayout android:layout_weight="0.5">
+                        <TableRow>
+                            <Button android:id="@+id/one"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:background="@drawable/one"
+                                    android:onClick="clicking"
+                                    android:layout_gravity="center"/>
+                        </TableRow>
+                    </TableLayout>
+                    <TableLayout android:layout_weight="0.3">
+                        <TableRow>
+                            <Button android:id="@+id/random"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:gravity="center"
+                                    android:background="@drawable/random"
+                                    android:onClick="clicking"/>
+                        </TableRow>
+                    </TableLayout>
+                    <TableLayout android:layout_weight="0.1">
+                        <TableRow>
+                            <Button android:id="@+id/all"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:background="@drawable/all"
+                                    android:onClick="clicking"
+                                    android:layout_gravity="right"/>
+                        </TableRow>
+                    </TableLayout>
+                </TableRow>
+
+            </TableLayout>
+        </TableRow>
+        <TableRow>
+            <TableLayout android:layout_width="1dp"
+                         android:layout_weight="1"
+                         android:layout_height="fill_parent"
+                         android:gravity="center_vertical|center_horizontal">
+
+
+                <TableRow android:layout_width="1dp"
+                          android:layout_weight="1"
+                          android:layout_height="fill_parent"
+                          android:gravity="center_vertical|center_horizontal">
+                    <Button android:id="@+id/button_previous"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="0dp"
+                            android:background="@drawable/previous_button"
+                            android:onClick="previousClick"
+                            />
+                    <Button android:id="@+id/button_pause"
+                            android:layout_width="wrap_content"
+                            android:onClick="pauseClick"
+                            android:layout_height="wrap_content"
+                            android:padding="0dp"
+                            android:background="@drawable/pause_button"
+                            />
+                    <Button android:id="@+id/button_play"
+                            android:layout_width="wrap_content"
+                            android:onClick="playClick"
+                            android:layout_height="wrap_content"
+                            android:padding="0dp"
+                            android:background="@drawable/play_button"/>
+                    <Button android:id="@+id/button_stop"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:onClick="stopClick"
+                            android:padding="0dp"
+                            android:background="@drawable/stop_button"/>
+                    <Button android:id="@+id/button_next"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:onClick="nextClick"
+                            android:background="@drawable/next_button"/>
+                </TableRow>
+
+
+            </TableLayout>
+        </TableRow>
+
+        <TableRow>
+            <TableLayout android:layout_width="1dp"
+                         android:layout_weight="1"
+                         android:layout_height="fill_parent"
+                         android:gravity="bottom">
+                <TableRow android:background="#d2d2d2">
+                    <Button android:id="@+id/button"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/list_button"
+                            android:onClick="showListClick"/>
+
+                    <Button android:id="@+id/button"
+                            android:layout_height="wrap_content"
+                            android:layout_width="1dp"
+                            android:layout_weight="0.8"
+                            android:text="@string/show_the_text"
+                            android:gravity="center"
+                            android:onClick="textClick"/>
+
+                    <Button android:id="@+id/button"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:background="@drawable/settings_button"
+                            android:onClick="settingsClick"/>
+                </TableRow>
+
+            </TableLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
+

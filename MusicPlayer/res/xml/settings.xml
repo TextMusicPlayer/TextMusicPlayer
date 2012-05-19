@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+            android:title="Работа с файлами">
+        <CheckBoxPreference
+                android:key="@string/pref_openmode"
+                android:title="Запускать плеер"
+                android:summary="Проигрывать композицию при запуске приложения"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="Настройки экрана">
+        <ListPreference
+                android:key="@string/pref_lang"
+                android:title="Выбрать язык"
+                android:summary="Выбрать язык приложения"
+                android:defaultValue="1"
+                android:entries="@array/player_lang"
+                android:entryValues="@array/player_lang"
+                android:dialogTitle="Выберите язык приложения"/>
+        <ListPreference
+                android:key="@string/pref_style"
+                android:title="Выбрать скин"
+                android:summary="Выбрать визуальное оформление"
+                android:defaultValue="1"
+                android:entries="@array/player_style"
+                android:entryValues="@array/player_style"
+                android:dialogTitle="Выберите стиль приложения"/>
+        <PreferenceScreen
+                android:key=""
+                android:title="О программе"
+                android:summary="Информация о приложении">
+
+            <Preference
+                    android:key=""
+                    android:title="Версия приложения"
+                    android:defaultValue="true"
+                    android:summary="1.1.5"/>
+            <Preference
+                    android:key=""
+                    android:title="Разработчики"
+                    android:summary="Мухина Ксения, Мельник Михаил, Гусаров Алексей, Лосевской Максим"/>
+            <Preference
+                    android:key=""
+                    android:title="Благодарность"
+                    android:summary="Используемые библиотеки: MyID3, mp3agic"/>
+
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

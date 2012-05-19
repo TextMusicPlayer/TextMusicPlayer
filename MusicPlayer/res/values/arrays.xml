@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="player_style">
+        <item>Основной</item>
+        <item>Серый</item>
+        <item>Минималистичный</item>
+    </string-array>
+    <string-array name="player_lang">
+        <item>Русский</item>
+    </string-array>
+</resources>

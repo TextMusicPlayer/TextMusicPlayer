@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/background1">
+    <TextView
+            android:gravity="center_horizontal"
+            android:text="artist"
+            android:textSize="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:id="@+id/lead_artist">
+    </TextView>
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+    <ImageView android:src="@drawable/t1"
+               android:layout_marginTop="6dp"
+               android:layout_marginLeft="65dp"
+               android:layout_width="190dp"
+               android:layout_height="190dp"
+               android:id="@+id/cover_album"/>
+        <TableLayout
+                android:layout_marginTop="6dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            <Button android:id="@+id/one"
+                    android:layout_height="10dp"
+                    android:layout_width="5dp"
+                    android:background="@drawable/one1"
+                    android:onClick="clicking"
+                    android:layout_gravity="center"/>
+            <Button android:id="@+id/random"
+                    android:layout_height="10dp"
+                    android:layout_width="5dp"
+                    android:gravity="center"
+                    android:background="@drawable/random1"
+                    android:onClick="clicking"/>
+            <Button android:id="@+id/all"
+                    android:layout_height="10dp"
+                    android:layout_width="5dp"
+                    android:background="@drawable/all1"
+                    android:onClick="clicking"
+                    android:layout_gravity="right"/>
+                </TableLayout>
+    </TableRow>
+    <TextView
+            android:layout_marginTop="2dp"
+            android:gravity="center_horizontal"
+            android:text="album"
+            android:textSize="19dp"
+            android:layout_width="fill_parent"
+            android:layout_height="22dp"
+            android:id="@+id/album_title">
+    </TextView>
+    <TextView
+            android:gravity="center_horizontal"
+            android:text="song"
+            android:textSize="22dp"
+            android:layout_width="fill_parent"
+            android:layout_height="27dp"
+            android:id="@+id/song_title">
+    </TextView>
+    <TextView android:id="@+id/release_year"
+              android:textSize="1dp"
+              android:layout_width="fill_parent"
+              android:layout_height="1dp"
+              android:visibility="invisible">
+    </TextView>
+    <TextView
+            android:gravity="center_horizontal"
+            android:text="duration"
+            android:id="@+id/duration"
+              android:textSize="18dp"
+              android:layout_width="fill_parent"
+              android:layout_height="21dp"
+              >
+    </TextView>
+    <TextView android:id="@+id/count"
+              android:textSize="1dp"
+              android:layout_width="fill_parent"
+              android:layout_height="1dp"
+              android:visibility="invisible">
+    </TextView>
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/buttons_back1">
+        <Button android:id="@+id/button_previous"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:padding="0dp"
+                android:background="@drawable/previous_button1"
+                android:onClick="previousClick"
+                />
+        <Button android:id="@+id/button_pause"
+                android:layout_width="60dp"
+                android:onClick="pauseClick"
+                android:layout_height="50dp"
+                android:padding="0dp"
+                android:background="@drawable/pause_button1"
+                />
+        <Button android:id="@+id/button_play"
+                android:layout_width="60dp"
+                android:onClick="playClick"
+                android:layout_height="50dp"
+                android:padding="0dp"
+                android:background="@drawable/play_button1"/>
+        <Button android:id="@+id/button_stop"
+                android:layout_height="50dp"
+                android:layout_width="60dp"
+                android:onClick="stopClick"
+                android:padding="0dp"
+                android:background="@drawable/stop_button1"/>
+        <Button android:id="@+id/button_next"
+                android:layout_height="50dp"
+                android:layout_width="60dp"
+                android:padding="0dp"
+                android:onClick="nextClick"
+                android:background="@drawable/next_button1"/>
+    </TableRow>
+    <TableRow
+              android:layout_width="fill_parent"
+              android:layout_height="40dp"
+            >
+        <Button android:id="@+id/button"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:background="@drawable/list_button1"
+                android:onClick="showListClick"/>
+
+        <Button android:id="@+id/button"
+                android:layout_height="wrap_content"
+                android:layout_width="1dp"
+                android:layout_weight="0.8"
+                android:text="@string/show_the_text"
+                android:gravity="center"
+                />
+
+        <Button android:id="@+id/button"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:background="@drawable/settings_button1"
+                android:onClick="settingsClick"/>
+    </TableRow>
+
+
+</LinearLayout>

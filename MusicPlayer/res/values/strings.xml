@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicPlayer</string>
+    <string name="pref_openmode">Режим открытия</string>
+    <string name="pref_style">Выбор скина</string>
+    <string name="pref_lang">Выбор языка</string>
+    <string name="notification_downloading">Выбор языка</string>
+</resources>
